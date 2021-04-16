@@ -1,18 +1,22 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#topright {
+    height: 130px;
+    line-height: 10px;
+    margin-inline-end: 20px;
+}
+
+#topright ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+}
+
+#topright ul li{
+    display: inline-block;
+    padding-right: 50px;
 
 }
 
-li {
-    display: inline;
-    float: right;
-}
 
-a {
-    display: block;
-    padding: 20px;
-    background-color: #dddddd;
+.Google_Apps {
+    height: 100px;
 }
-
